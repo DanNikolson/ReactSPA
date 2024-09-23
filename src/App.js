@@ -52,7 +52,7 @@ function App() {
       <PostList
         remove={removePost}
         posts={sortedAndSearchedPosts}
-        title="Посты про JS"
+        title="Список постов"
       />
     </div>
   );
