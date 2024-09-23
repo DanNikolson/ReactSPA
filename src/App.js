@@ -50,7 +50,6 @@ function App() {
 
   return (
     <div className="App">
-      <MyButton onClick={fetchPosts}>Get Posts</MyButton>
       <MyButton style={{ marginTop: 30 }} onClick={() => setModal(true)}>
         Создать пост
       </MyButton>
